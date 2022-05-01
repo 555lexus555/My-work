@@ -1,0 +1,383 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <!-- wrapp -->
+    <div class="wrapp">
+        <!-- navbar -->
+        <nav class="navbar navbar-expand-lg">
+            <div class="container">
+                <a href="#" class="navbar-brand">
+                    <span class="navbar-brand__my">my</span>
+                    <span class="navbar-brand__work">work</span>
+                </a>
+
+                <button type="button" class="navbar-toggler" data-bs-target="#menu" data-bs-toggle="collapse">menu</button>
+
+
+                <div class="collapse navbar-collapse" id="menu">
+                    <div class="navbar__list ms-auto">
+                        <a href="#!">About me</a>
+                        <a href="#!">Works</a>
+                        <button type="button" class="btn__order" data-bs-target="#myModal" data-bs-toggle="modal">to order</button>
+                        <a href="#!"><span class="icon-phone"></span></a>
+                    </div>
+                </div>
+            </div>
+        </nav>
+        <!-- carousel -->
+        <div class="carousel slide" id="mySlider" data-bs-ride="carousel">
+            <div class="container">
+                <ul class="carousel-indicators">
+                    <li data-bs-target="#mySlider" data-bs-slide-to="0" class="active"></li>
+                    <li data-bs-target="#mySlider" data-bs-slide-to="1"></li>
+                    <li data-bs-target="#mySlider" data-bs-slide-to="2"></li>
+                </ul>
+
+                <div class="carousel-inner">
+                    <div class="carousel-item active" data-bs-interval="4000">
+                        <div class="row justify-content-between">
+                            <div class="col-lg-6 d-flex flex-column align-items-center">
+                                <h5>My beginning</h5>
+                                <h3>self-development and training in the training center</h3>
+                                <a href="#" class="get__now">GET STARTED NOW</a>
+                                <div class="row w-100 gx-0">
+                                    <div class="col-4 d-flex flex-column align-items-center">
+                                        <img src="assets/html.svg" class="icon__slide" alt="">
+                                        <p>html</p>
+                                    </div>
+                                    
+                                    <div class="col-4 d-flex flex-column align-items-center">
+                                        <img src="assets/css.svg" class="icon__slide" alt="">
+                                        <p>css</p>
+                                    </div>
+
+                                    <div class="col-4 d-flex flex-column align-items-center">
+                                        <img src="assets/bootstrap.svg" class="icon__slide" alt="">
+                                        <p>bootstrap</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-5">
+                                <img src="assets/slide.png" alt="" class="carousel-item__slide">
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="carousel-item" data-bs-interval="4000">
+                        <div class="row justyfy-content-between">
+                            <div class="col-lg-6 d-flex flex-column align-items-center">
+                                <h5>My beginning</h5>
+                                <h3>self-development and training in the training center</h3>
+                                <a href="#" class="get__now">GET STARTED NOW</a>
+                                <div class="row w-100 gx-0">
+                                    <div class="col-4 d-flex flex-column align-items-center">
+                                        <img src="assets/html.svg" class="icon__slide" alt="">
+                                        <p>html</p>
+                                    </div>
+                                    
+                                    <div class="col-4 d-flex flex-column align-items-center">
+                                        <img src="assets/css.svg" class="icon__slide" alt="">
+                                        <p>css</p>
+                                    </div>
+
+                                    <div class="col-4 d-flex flex-column align-items-center">
+                                        <img src="assets/bootstrap.svg" class="icon__slide" alt="">
+                                        <p>bootstrap</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-5">
+                                <img src="assets/slide.png" alt="" class="carousel-item__slide">
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="carousel-item" data-bs-interval="4000">
+                        <div class="row justyfy-content-between">
+                            <div class="col-lg-6 d-flex flex-column align-items-center">
+                                <h5>My beginning</h5>
+                                <h3>self-development and training in the training center</h3>
+                                <a href="#" class="get__now">GET STARTED NOW</a>
+                                <div class="row w-100 gx-0">
+                                    <div class="col-4 d-flex flex-column align-items-center">
+                                        <img src="assets/html.svg" class="icon__slide" alt="">
+                                        <p>html</p>
+                                    </div>
+                                    
+                                    <div class="col-4 d-flex flex-column align-items-center">
+                                        <img src="assets/css.svg" class="icon__slide" alt="">
+                                        <p>css</p>
+                                    </div>
+
+                                    <div class="col-4 d-flex flex-column align-items-center">
+                                        <img src="assets/bootstrap.svg" class="icon__slide" alt="">
+                                        <p>bootstrap</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-5">
+                                <img src="assets/slide.png" alt="" class="carousel-item__slide">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- info -->
+        <section class="info">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-6">
+                        <div class="info__img">
+                            <img src="assets/dew.png" alt="">
+                            <p class="info__img--text">my work for <span>5+</span></p>
+                        </div>
+                    </div>
+                    <div class="col-lg-6">
+                        <div class="info__content">
+                            <h3>What is Front-end</h3>
+                            <p>it is the self-development Of Of The user interface And Functions That Run On On The Client Side Of A Website Or Aplication This is Everything That A User Sees When Opening A Or Aweb Page And With Which He Interacts.</p>
+                            <p>This is Everything That A User Sees When Opening A Or Aweb Page And With Which He Interacts.</p>
+                            <a href="#" class="info__content--btn">GO TO WORK</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- capabilites -->
+        <section class="capabilities">
+            <h2>capabilities</h2>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-6 d-flex align-items-center">
+                        <div class="accordion" id="myAccordion">
+                            <!-- accordion item -->
+
+                            <div class="accordion__item">
+                                <button type="button" class="accordion__item--btn collapsed" data-bs-target="#html" data-bs-toggle="collapse">
+                                    <span><s class="icon-html"></s> html</span>
+                                    <svg width="20" height="15" viewBox="0 0 41 29" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M22.1107 27.812C21.3114 28.8978 19.6886 28.8978 18.8893 27.812L0.761375 3.18564C-0.210774 1.86501 0.732178 -1.42742e-07 2.37204 6.19828e-10L38.628 3.17021e-06C40.2678 3.31357e-06 41.2108 1.86501 40.2386 3.18565L22.1107 27.812Z" fill="black"/>
+                                        </svg>                                             
+                                </button>
+                                <div class="collapse" id="html" data-bs-parent="#myAccordion">
+                                    <div class="accordion__item--content">
+                                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sed tenetur ea incidunt possimus! Saepe nulla dolores officia sapiente laudantium mollitia, ipsum, tempore hic illo modi impedit! Iste, itaque? Ipsum, a.</p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="accordion__item">
+                                <button type="button" class="accordion__item--btn collapsed" data-bs-target="#css" data-bs-toggle="collapse">
+                                    <span><s class="icon-css"></s> css</span>
+                                    <svg width="20" height="15" viewBox="0 0 41 29" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M22.1107 27.812C21.3114 28.8978 19.6886 28.8978 18.8893 27.812L0.761375 3.18564C-0.210774 1.86501 0.732178 -1.42742e-07 2.37204 6.19828e-10L38.628 3.17021e-06C40.2678 3.31357e-06 41.2108 1.86501 40.2386 3.18565L22.1107 27.812Z" fill="black"/>
+                                        </svg>
+                                </button>
+                                <div class="collapse" id="css" data-bs-parent="#myAccordion">
+                                    <div class="accordion__item--content">
+                                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sed tenetur ea incidunt possimus! Saepe nulla dolores officia sapiente laudantium mollitia, ipsum, tempore hic illo modi impedit! Iste, itaque? Ipsum, a.</p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="accordion__item">
+                                <button type="button" class="accordion__item--btn" data-bs-target="#bootstrap" data-bs-toggle="collapse">
+                                    <span><s class="icon-bootstrap"></s> bootstrap</span>
+                                    <svg width="20" height="15" viewBox="0 0 41 29" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M22.1107 27.812C21.3114 28.8978 19.6886 28.8978 18.8893 27.812L0.761375 3.18564C-0.210774 1.86501 0.732178 -1.42742e-07 2.37204 6.19828e-10L38.628 3.17021e-06C40.2678 3.31357e-06 41.2108 1.86501 40.2386 3.18565L22.1107 27.812Z" fill="black"/>
+                                        </svg>
+                                </button>
+                                <div class="collapse show" id="bootstrap" data-bs-parent="#myAccordion">
+                                    <div class="accordion__item--content">
+                                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sed tenetur ea incidunt possimus! Saepe nulla dolores officia sapiente laudantium mollitia, ipsum, tempore hic illo modi impedit! Iste, itaque? Ipsum, a.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- accordion item  end-->
+                        </div>
+                    </div>
+                    <div class="col-lg-6 d-lg-flex d-none">
+                        <div class="capabilities__img">
+                            <img src="assets/capabilities.png" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- works -->
+        <section class="works">
+            <h2>my works</h2>
+            <div class="container">
+                <div class="row">
+                    <div class="col-xl-3 col-lg-4">
+                        <div class="nav works__links d-flex flex-wrap">
+                            <a href="#nike" data-bs-toggle="tab" class="active">NIKE</a>
+                            <a href="#silver" data-bs-toggle="tab">SILVER HOUSE</a>
+                            <a href="#orange" data-bs-toggle="tab">ORANGE-MARKETING</a>
+                            <a href="#tashkent" data-bs-toggle="tab">TASHKENT</a>
+                            <a href="#street" data-bs-toggle="tab">STREET88</a>
+                            <a href="#pizza" data-bs-toggle="tab">PIZZERIA</a>
+                        </div>
+                    </div>
+                    <div class="col-xl-9 col-lg-8">
+                        <div class="tab-content">
+
+                            
+                            <div class="tab-pane fade show active" id="nike">
+                                <div class="row">
+                                    <div class="col-lg-4">
+                                      <img src="assets/nike.jpg">
+                                    </div>
+                                    <div class="col-lg-8">
+                                        <h3>Nike</h3>
+                                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Hic blanditiis illo cum nisi aliquid explicabo ratione cumque a officiis quas autem voluptates earum repellat ducimus ipsum, corrupti necessitatibus officia. Veritatis?</p>
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam, consequuntur id esse voluptates tempora accusamus soluta nulla quasi!</p>
+                                        <a href="" class="tab-pane__btn">detals</a>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="tab-pane fade" id="silver">
+                                <div class="row">
+                                    <div class="col-lg-4">
+                                      <img src="assets/silver-hous.jpg">
+                                    </div>
+                                    <div class="col-lg-8">
+                                        <h3>Silver house</h3>
+                                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Hic blanditiis illo cum nisi aliquid explicabo ratione cumque a officiis quas autem voluptates earum repellat ducimus ipsum, corrupti necessitatibus officia. Veritatis?</p>
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam, consequuntur id esse voluptates tempora accusamus soluta nulla quasi!</p>
+                                        <a href="" class="tab-pane__btn">detals</a>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="tab-pane fade" id="orange">
+                                <div class="row">
+                                    <div class="col-lg-4">
+                                      <img src="assets/orange.jpg">
+                                    </div>
+                                    <div class="col-lg-8">
+                                        <h3>ORANGE-MARKETING</h3>
+                                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Hic blanditiis illo cum nisi aliquid explicabo ratione cumque a officiis quas autem voluptates earum repellat ducimus ipsum, corrupti necessitatibus officia. Veritatis?</p>
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam, consequuntur id esse voluptates tempora accusamus soluta nulla quasi!</p>
+                                        <a href="" class="tab-pane__btn">detals</a>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="tab-pane fade" id="tashkent">
+                                <div class="row">
+                                    <div class="col-lg-4">
+                                      <img src="assets/tashkent.jpg">
+                                    </div>
+                                    <div class="col-lg-8">
+                                        <h3>tashkent</h3>
+                                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Hic blanditiis illo cum nisi aliquid explicabo ratione cumque a officiis quas autem voluptates earum repellat ducimus ipsum, corrupti necessitatibus officia. Veritatis?</p>
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam, consequuntur id esse voluptates tempora accusamus soluta nulla quasi!</p>
+                                        <a href="" class="tab-pane__btn">detals</a>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="tab-pane fade" id="street">
+                                <div class="row">
+                                    <div class="col-lg-4">
+                                      <img src="assets/street.jpg">
+                                    </div>
+                                    <div class="col-lg-8">
+                                        <h3>Street</h3>
+                                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Hic blanditiis illo cum nisi aliquid explicabo ratione cumque a officiis quas autem voluptates earum repellat ducimus ipsum, corrupti necessitatibus officia. Veritatis?</p>
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam, consequuntur id esse voluptates tempora accusamus soluta nulla quasi!</p>
+                                        <a href="" class="tab-pane__btn">detals</a>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="tab-pane fade" id="pizza">
+                                <div class="row">
+                                    <div class="col-lg-4">
+                                      <img src="assets/pizza.jpg">
+                                    </div>
+                                    <div class="col-lg-8">
+                                        <h3>Pizza</h3>
+                                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Hic blanditiis illo cum nisi aliquid explicabo ratione cumque a officiis quas autem voluptates earum repellat ducimus ipsum, corrupti necessitatibus officia. Veritatis?</p>
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam, consequuntur id esse voluptates tempora accusamus soluta nulla quasi!</p>
+                                        <a href="#" class="tab-pane__btn">detals</a>
+                                    </div>
+                                </div>
+                            </div>
+
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- footer -->
+        <footer class="footer">
+            <div class="container">
+                <div class="row justify-content-end">
+                    <div class="col-xl-6 col-lg-10 d-flex flex-column align-items-center">
+                        <a href="#" class="navbar-brand">
+                            <span class="navbar-brand__my">my</span>
+                            <span class="navbar-brand__work">work</span>
+                        </a>
+
+                        <ul class="footer__list list-unstyled d-flex flex-wrap">
+                            <li><a href="#">About me</a></li>
+                            <li><a href="#">Works</a></li>
+                            <li><a href="#">Contacts</a></li>
+                            <li><a href="#">(239) 555-0180</a></li>
+                            <li><a href="#">Ronald_Richards@gmail.ru</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        <!-- animation -->
+        <div class="square1"></div>
+        <div class="square2"></div>
+        <div class="square3"></div>
+        <div class="square4"></div>
+
+        <div class="circle1"></div>
+        <div class="circle2"></div>
+        <div class="circle3"></div>
+        <div class="circle4"></div>
+    </div>
+    <!-- wrapp end -->
+
+    <!-- modal -->
+    <div class="modal fade" id="myModal">
+        <div class="modal-dialog">
+          <form class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title">Обратная связь</h5>
+              <button type="button" class="icon-close" data-bs-dismiss="modal"></button>
+            </div>
+            <div class="modal-body">
+                <input type="text" name="userName" placeholder="Name">
+                <input type="text" name="userEmail" placeholder="Email">
+                <input type="text" name="userPhone" placeholder="Phone">
+                <textarea name="message" placeholder="message" ></textarea>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="modal__btn">Send</button>
+            </div>
+        </form>
+        </div>
+      </div>
+    <!-- modal end -->
+
+    <script src="js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
